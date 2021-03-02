@@ -1,10 +1,11 @@
 Android
 PlayerPath?
-/Users/joebuckley/Desktop/PokemonUnity-master/Pokemon Unity/PocketLife_NoMenu.apk
+/Users/joebuckley/Desktop/PokemonUnity-master/Pokemon Unity/PocketLife_New_Demo.apk
 SceneListBegin?
-Assets/Splash.unity
-Assets/overworldTest.unity
+Assets/New Scene.unity
 Assets/startup.unity
+Assets/overworldTest.unity
+Assets/overworldN.unity
 Assets/mapTestCave.unity
 Assets/mapTestIndoors1.unity
 Assets/mtEruttare.unity
@@ -14,7 +15,6 @@ Assets/cavesNoLight.unity
 Assets/umbraWoods.unity
 Assets/overworldS.unity
 Assets/overworldNW.unity
-Assets/overworldN.unity
 Assets/indoorsS.unity
 Assets/indoorsNW.unity
 Assets/indoorsN.unity
@@ -110,6 +110,7 @@ a44114bd4fa541174f78b4bb92bacb48 UnityEngine.UI.dll:UnityEngine.EventSystems.Sta
 e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+246dff9ac67c725e8d71b4dc26602e06 Assembly-CSharp.dll:.SplashSequence
 fb302330757b47b49b0f8a44f7e66b14 Assembly-CSharp.dll:.FollowerMovement
 b971a106988ebd6fca12c15c3cd91059 Assembly-CSharp.dll:.InteractRedirect
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -211,6 +212,7 @@ e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTool
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.InteractTrainerSight
+246dff9ac67c725e8d71b4dc26602e06 Assembly-CSharp.dll:.SceneTranstitionNew
 6987a977db288354d370ad8d6101d7bc Assembly-CSharp.dll:.MapCollider
 2ab75b4f1fcd6f0d8c0cf3b21e86a0ed Assembly-CSharp.dll:.NPCHandler
 c11f35256dfeb6e1a2f0ee2b3ec3d620 Assembly-CSharp.dll:.PCHandler
@@ -240,4 +242,5 @@ acaf7179640450c2d31d45c6613b75a2 Assembly-CSharp.dll:.SpriteAnimation
 6b3d38377fb036c08bba1e548ee57a50 Assembly-CSharp.dll:.SetSortingOrder
 93c35e8498a80df22a59d0e5c1d595a3 Assembly-CSharp.dll:.PauseHandler
 5bfbb7fc12997c3aad0250533fa6c1fd Assembly-CSharp.dll:.PartyHandler
-246dff9ac67c725e8d71b4dc26602e06 Assembly-CSharp.dll:.SplashSequence
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.comp
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.BGSoundScript

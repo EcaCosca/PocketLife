@@ -22,7 +22,7 @@ public class SceneTranstitionNew : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Scene Transistion");
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
 
