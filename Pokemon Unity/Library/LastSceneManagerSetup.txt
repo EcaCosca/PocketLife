@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/startup.unity
+- path: Assets/overworldNW.unity
   isLoaded: 1
   isActive: 1
