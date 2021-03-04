@@ -26,13 +26,16 @@ public class GrassPatchHandler : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Enter Grass");
         if (other.name.Contains("_Object") || other.name.Contains("_Transparent"))
         {
             overlay.SetActive(true);
 
             if (other.transform.parent.name == "Player")
             {
-                SfxHandler.Play(walkClip, Random.Range(0.85f, 1.1f));
+                float randnum = Random.Range(0.85f, 1.1f);
+                SfxHandler.Play(walkClip, randnum);
+                Debug.Log(randnum);
                 StartCoroutine(PlayerMovement.player.wildEncounter(WildPokemonInitialiser.Location.Grass));
             }
         }

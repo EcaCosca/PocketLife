@@ -42,7 +42,7 @@ public class MapSettings : MonoBehaviour
     public PokemonRarity pokemonRarity = PokemonRarity.Uncommon;
 
     public WildPokemonInitialiser[] encounters = new WildPokemonInitialiser[0];
-
+   
     // returns the BGM to an external script
     public AudioClip getBGM()
     {
@@ -201,6 +201,7 @@ public class MapSettings : MonoBehaviour
     // returns the probability of encounter
     public float getEncounterProbability()
     {
+
         float x = 1.25f;
         if (pokemonRarity == PokemonRarity.VeryCommon)
         {
@@ -223,6 +224,7 @@ public class MapSettings : MonoBehaviour
 
     public WildPokemonInitialiser[] getEncounterList(WildPokemonInitialiser.Location location)
     {
+        Debug.Log(encounters);
         WildPokemonInitialiser[] list = new WildPokemonInitialiser[encounters.Length];
         int listIndex = 0;
 

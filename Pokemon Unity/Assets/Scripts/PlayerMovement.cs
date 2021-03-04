@@ -202,13 +202,15 @@ public class PlayerMovement : MonoBehaviour
         //DEBUG
         if (accessedMapSettings != null)
         {
+
             string pkmnNames = "";
             foreach(var encounter in accessedMapSettings.getEncounterList(WildPokemonInitialiser.Location.Standard))
             {
+
                 pkmnNames += PokemonDatabase.getPokemon(encounter.ID).getName() + ", ";
             }
             Debug.Log("Wild Pokemon for map \"" + accessedMapSettings.mapName + "\": " + pkmnNames);
-        }
+        };
         //
 
         GlobalVariables.global.resetFollower();
@@ -1082,6 +1084,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (accessedMapSettings.getEncounterList(encounterLocation).Length > 0)
         {
+
             if (UnityEngine.Random.value <= accessedMapSettings.getEncounterProbability())
             {
                 if (setCheckBusyWith(Scene.main.Battle.gameObject))
