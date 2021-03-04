@@ -1318,7 +1318,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 182028}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: 62, y: 0, z: 55}
+  m_LocalPosition: {x: 102, y: 0, z: -89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 465610}
@@ -2204,8 +2204,8 @@ MonoBehaviour:
   dontFadeMusic: 0
   entranceStyle: 0
   movesForward: 1
-  transferScene: overworldS
-  transferPosition: {x: 113, y: -4, z: 96}
+  transferScene: overworldNW
+  transferPosition: {x: 117, y: 2, z: -138}
   transferDirection: 2
   examineText: 
   lockedExamineText: 
@@ -2293,7 +2293,7 @@ MonoBehaviour:
   busy: 0
   hitBox: {fileID: 476746}
   direction: 2
-  currentMap: {fileID: 0}
+  currentMap: {fileID: 11499310}
   destinationMap: {fileID: 0}
 --- !u!114 &11490702
 MonoBehaviour:
@@ -2310,7 +2310,7 @@ MonoBehaviour:
   mapBGMLoopStartSamples: 0
   mapBGMNightClip: {fileID: 8300000, guid: e096cdeb3b4c7b748abed36fbdee8cee, type: 3}
   mapBGMNightLoopStartSamples: 0
-  mapName: Scordio Town
+  mapName: West Divirella City
   mapNameBoxTexture: {fileID: 0}
   mapNameColor: {r: 0.0627451, g: 0.0627451, b: 0.0627451, a: 1}
   environment: 4
@@ -2829,7 +2829,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300024, guid: f6f8470ac8c0c2b4ea7ee30dbca41c4c, type: 3}
+  m_Sprite: {fileID: 21300016, guid: cdeda8067c16def4facf74eb0fc8ab1d, type: 3}
   m_Color: {r: 0.3137255, g: 0.74509805, b: 0.8392157, a: 0.5019608}
   m_FlipX: 0
   m_FlipY: 0
