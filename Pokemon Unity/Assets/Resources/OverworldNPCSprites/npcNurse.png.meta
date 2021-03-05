@@ -1,232 +1,490 @@
 fileFormatVersion: 2
-guid: cdeda8067c16def4facf74eb0fc8ab1d
-timeCreated: 1447133784
-licenseType: Free
+guid: 56704930feba89f41aed8e44f0969b2c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: npcNurse_0
-    21300002: npcNurse_1
-    21300004: npcNurse_2
-    21300006: npcNurse_3
-    21300008: npcNurse_4
-    21300010: npcNurse_5
-    21300012: npcNurse_6
-    21300014: npcNurse_7
-    21300016: npcNurse_8
-    21300018: npcNurse_9
-    21300020: npcNurse_10
-    21300022: npcNurse_11
-    21300024: npcNurse_12
-    21300026: npcNurse_13
-    21300028: npcNurse_14
-    21300030: npcNurse_15
-  serializedVersion: 2
+    21300000: npcNurse 1_0
+    21300002: npcNurse 1_1
+    21300004: npcNurse 1_2
+    21300006: npcNurse 1_3
+    21300008: npcNurse 1_4
+    21300010: npcNurse 1_5
+    21300012: npcNurse 1_6
+    21300014: npcNurse 1_7
+    21300016: npcNurse 1_8
+    21300018: npcNurse 1_9
+    21300020: npcNurse 1_10
+    21300022: npcNurse 1_11
+    21300024: npcNurse 1_12
+    21300026: npcNurse 1_13
+    21300028: npcNurse 1_14
+    21300030: npcNurse 1_15
+  externalObjects: {}
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -2
-  maxTextureSize: 128
+  textureFormat: 1
+  maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: npcNurse_0
+    - serializedVersion: 2
+      name: npcNurse 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 22
-        height: 32
+        x: 2
+        y: 100
+        width: 17
+        height: 24
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf979afeb4335e47a3743eb5171fad0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 96
-        width: 22
-        height: 32
+        x: 24
+        y: 99
+        width: 17
+        height: 26
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cb6faf2b85a9f49b51074ef3f0baeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_2
       rect:
         serializedVersion: 2
-        x: 44
-        y: 96
-        width: 22
-        height: 32
+        x: 46
+        y: 100
+        width: 17
+        height: 24
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_3
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf71704d76415749bdc24b7a731d082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_3
       rect:
         serializedVersion: 2
-        x: 66
-        y: 96
-        width: 22
-        height: 32
+        x: 68
+        y: 99
+        width: 17
+        height: 26
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_4
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fac5de76447ed4795b7f289c188278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 22
-        height: 32
+        x: 2
+        y: 68
+        width: 16
+        height: 24
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_5
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c288386c7aee5474ea40a382d73a0b5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_5
       rect:
         serializedVersion: 2
-        x: 22
-        y: 64
-        width: 22
-        height: 32
+        x: 24
+        y: 68
+        width: 16
+        height: 25
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_6
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873344c3fb7974c4ca3dae937bcc9ce9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_6
       rect:
         serializedVersion: 2
-        x: 44
-        y: 64
-        width: 22
-        height: 32
+        x: 46
+        y: 68
+        width: 16
+        height: 24
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_7
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b39f058bc11b0d4480e5e606cf894e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_7
       rect:
         serializedVersion: 2
-        x: 66
-        y: 64
-        width: 22
-        height: 32
+        x: 68
+        y: 68
+        width: 16
+        height: 25
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_8
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422189432c9f4d4498756e4681ac6749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 22
-        height: 32
+        x: 2
+        y: 36
+        width: 17
+        height: 24
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_9
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e4da930cc256c458709ffeb5aea42e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_9
       rect:
         serializedVersion: 2
-        x: 22
-        y: 32
-        width: 22
-        height: 32
+        x: 24
+        y: 35
+        width: 17
+        height: 26
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_10
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456b2543d18fa224bbaa96e4441b0a17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_10
       rect:
         serializedVersion: 2
-        x: 44
-        y: 32
-        width: 22
-        height: 32
+        x: 46
+        y: 36
+        width: 17
+        height: 24
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_11
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d505d8868004954a962af90b5dc2c0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_11
       rect:
         serializedVersion: 2
-        x: 66
-        y: 32
-        width: 22
-        height: 32
+        x: 68
+        y: 35
+        width: 17
+        height: 26
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_12
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed0a265511949a448769bd3f2ab3846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 22
-        height: 32
+        x: 3
+        y: 4
+        width: 16
+        height: 24
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_13
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090d0e9f8d2e68e40988b30b852dce58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_13
       rect:
         serializedVersion: 2
-        x: 22
-        y: 0
-        width: 22
-        height: 32
+        x: 25
+        y: 4
+        width: 16
+        height: 25
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_14
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e18272eec34d544591765ff0cb19daa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_14
       rect:
         serializedVersion: 2
-        x: 44
-        y: 0
-        width: 22
-        height: 32
+        x: 47
+        y: 4
+        width: 16
+        height: 24
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: npcNurse_15
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444b243edacba6f4ab9011b037723a61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npcNurse 1_15
       rect:
         serializedVersion: 2
-        x: 66
-        y: 0
-        width: 22
-        height: 32
+        x: 69
+        y: 4
+        width: 16
+        height: 25
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5867446a318769444b8f6ff4b3f0c9b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1e757af558acea545b58d97635d965be
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

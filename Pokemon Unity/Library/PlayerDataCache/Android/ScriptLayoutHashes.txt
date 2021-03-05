@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/joebuckley/Desktop/PokemonUnity-master/Pokemon Unity/PocketLife_New_Demo.apk
+/Users/joebuckley/Desktop/PokemonUnity-master/Pokemon Unity/PocketLife.apk
 SceneListBegin?
 Assets/New Scene.unity
 Assets/startup.unity
@@ -161,6 +161,7 @@ b9327abe697893cb47fc2ae98a2cc6c0 Assembly-CSharp.dll:.TypingHandler
 8a9d5e085fe57cc7c6cd0b5476df5736 Assembly-CSharp.dll:.InteractItem
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 44553010f544bc74fcd919c1211505e4 Assembly-CSharp.dll:.ActivateTimeBased
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.BGSoundScript
 fd05a0adb98baf5972d0cc85404ca0c2 Assembly-CSharp.dll:.MapSettings
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.NonResettingHandler
 f7eb2cb495d9a45c09eb515cef4584c4 Assembly-CSharp.dll:.BumpPokemonCenterRespawn
@@ -174,6 +175,7 @@ c194b81cc8e34402f737cbd67c69c1d3 Assembly-CSharp.dll:.SetResolution
 3a87fa77b2f717345491b1122b22eb25 Assembly-CSharp.dll:.CustomEvent
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
 68cedc3323354234a2cfc81dc07670ed Assembly-CSharp.dll:.InteractBreak
+cecf74a4a014467f492fa5579fb4b397 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 0f27c39183b9eb95eba0a228bea28273 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -198,6 +200,7 @@ d797946277841bb4879ee9f5d62b623a Assembly-CSharp.dll:.PlayerMovement
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.GUIParticleHandler
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.comp
 ddcae71b3f91386237efd012a9eef2be UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 486cd95c82d8305219c352c06b776e1f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
@@ -242,5 +245,3 @@ acaf7179640450c2d31d45c6613b75a2 Assembly-CSharp.dll:.SpriteAnimation
 6b3d38377fb036c08bba1e548ee57a50 Assembly-CSharp.dll:.SetSortingOrder
 93c35e8498a80df22a59d0e5c1d595a3 Assembly-CSharp.dll:.PauseHandler
 5bfbb7fc12997c3aad0250533fa6c1fd Assembly-CSharp.dll:.PartyHandler
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.comp
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.BGSoundScript
