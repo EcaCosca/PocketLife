@@ -1634,7 +1634,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 198458}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: 67, y: 0, z: 75}
+  m_LocalPosition: {x: 30, y: 0, z: 38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 409422}
@@ -2745,7 +2745,7 @@ MonoBehaviour:
   mapBGMLoopStartSamples: 242682
   mapBGMNightClip: {fileID: 0}
   mapBGMNightLoopStartSamples: 0
-  mapName: Scordio Town
+  mapName: Erba Village
   mapNameBoxTexture: {fileID: 0}
   mapNameColor: {r: 0.0627451, g: 0.0627451, b: 0.0627451, a: 1}
   environment: 6
@@ -2780,8 +2780,8 @@ MonoBehaviour:
   dontFadeMusic: 0
   entranceStyle: 0
   movesForward: 1
-  transferScene: overworldS
-  transferPosition: {x: 103, y: -2, z: 85}
+  transferScene: overworldNW
+  transferPosition: {x: -24, y: 0, z: -4}
   transferDirection: 2
   examineText: 
   lockedExamineText: 

@@ -13,7 +13,6 @@ public class BumpLedge : MonoBehaviour
         if (PlayerMovement.player.direction == movementDirection)
         {
             PlayerMovement.player.pauseInput();
-
             PlayerMovement.player.forceMoveForward(2);
             PlayerMovement.player.followerScript.canMove = false;
             if (!PlayerMovement.player.running)

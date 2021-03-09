@@ -245,15 +245,33 @@ public class FollowerMovement : MonoBehaviour
                 }
                 sReflectionRenderer.sprite = sRenderer.sprite;
                 sLReflectionRenderer.sprite = sLRenderer.sprite;
-                if (i > 2)
+                if (direction == 1)
                 {
-                    pawn.localPosition = new Vector3(0, 0.17f, -0.36f);
-                    pawnLight.localPosition = new Vector3(0, 0.171f, -0.36f);
+
+
+                    if (i > 2)
+                    {
+                        pawn.localPosition = new Vector3(-0.5f, 0.17f, -0.36f);  //0.17
+                        pawnLight.localPosition = new Vector3(0.5f, 0.171f, -0.36f); //0.171
+                    }
+                    else
+                    {
+                        pawn.localPosition = new Vector3(-0.5f, 0.2f, -0.305f);
+                        pawnLight.localPosition = new Vector3(0.5f, 0.201f, -0.305f);
+                    }
                 }
-                else
+                if (direction == 3)
                 {
-                    pawn.localPosition = new Vector3(0, 0.2f, -0.305f);
-                    pawnLight.localPosition = new Vector3(0, 0.201f, -0.305f);
+                    if (i > 2)
+                    {
+                        pawn.localPosition = new Vector3(0.5f, 0.17f, -0.36f);  //0.17
+                        pawnLight.localPosition = new Vector3(0.5f, 0.171f, -0.36f); //0.171
+                    }
+                    else
+                    {
+                        pawn.localPosition = new Vector3(0.5f, 0.2f, -0.305f);
+                        pawnLight.localPosition = new Vector3(0.5f, 0.201f, -0.305f);
+                    }
                 }
                 yield return new WaitForSeconds(0.055f);
             }

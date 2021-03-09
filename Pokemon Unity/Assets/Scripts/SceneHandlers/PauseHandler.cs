@@ -1,4 +1,4 @@
-﻿//Original Scripts by IIColour (IIColour_Spectrum)
+//Original Scripts by IIColour (IIColour_Spectrum)
 
 using UnityEngine;
 using System.Collections;
@@ -556,7 +556,7 @@ public class PauseHandler : MonoBehaviour
         yield return StartCoroutine("closeAnim");
 
         this.gameObject.SetActive(false);
-    }
+    } 
 
     /// Only runs the default scene (no parameters)
     private IEnumerator runSceneUntilDeactivated(GameObject sceneInterface)

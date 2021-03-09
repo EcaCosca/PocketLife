@@ -94,7 +94,7 @@ public class GlobalVariables : MonoBehaviour
     public void SetDEBUGFileData()
     {
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        SaveData.currentSave.playerName = "Ethan";
+        SaveData.currentSave.playerName = "Malcolm";
         SaveData.currentSave.playerID = 29482;
         SaveData.currentSave.isMale = true;
 

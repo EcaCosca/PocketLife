@@ -952,7 +952,7 @@ public class PlayerMovement : MonoBehaviour
         //speed = walkSpeed;
         float increment = 0f;
         float parabola = 0;
-        float height = 2.1f;
+        float height = 2f; //2.1f
         Vector3 startPosition = pawn.position;
 
         playClip(jumpClip);
@@ -968,7 +968,7 @@ public class PlayerMovement : MonoBehaviour
             pawn.position = new Vector3(pawn.position.x, startPosition.y + parabola, pawn.position.z);
             yield return null;
         }
-        pawn.position = new Vector3(pawn.position.x, startPosition.y, pawn.position.z);
+        pawn.position = new Vector3(pawn.position.x, startPosition.y - 0.3f, pawn.position.z);
 
         playClip(landClip);
 
