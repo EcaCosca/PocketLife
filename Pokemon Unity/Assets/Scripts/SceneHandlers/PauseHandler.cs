@@ -185,25 +185,31 @@ public class PauseHandler : MonoBehaviour
 
     public IEnumerator updateIcon(int index)
     {
-        if (selectedIcon == 1)
+        if (selectedIcon == 4) //original number was 1
         {
-            targetIcon = iconPokedex;
-            setSelectedText("Pokédex");
+           // targetIcon = iconPokedex;
+           // setSelectedText("Pokédex");
+           targetIcon = iconTrainer;
+            setSelectedText(SaveData.currentSave.playerName);
         }
-        else if (selectedIcon == 2)
+        else if (selectedIcon == 5) //original number was 2
         {
-            targetIcon = iconParty;
-            setSelectedText("Pokémon Party");
+           // targetIcon = iconParty;
+           // setSelectedText("Pokémon Party");
+           targetIcon = iconSave;
+            setSelectedText("Save Game");
         }
-        else if (selectedIcon == 3)
+        else if (selectedIcon == 6) //original number was 3
         {
-            targetIcon = iconBag;
-            setSelectedText("Bag");
-        }
+           // targetIcon = iconBag;
+           // setSelectedText("Bag");
+           targetIcon = iconSettings;
+            setSelectedText("Settings");
+        }/*
         else if (selectedIcon == 4)
         {
-            targetIcon = iconTrainer;
-            setSelectedText(SaveData.currentSave.playerName);
+            //targetIcon = iconTrainer;
+            //setSelectedText(SaveData.currentSave.playerName);
         }
         else if (selectedIcon == 5)
         {
@@ -214,7 +220,7 @@ public class PauseHandler : MonoBehaviour
         {
             targetIcon = iconSettings;
             setSelectedText("Settings");
-        }
+        }*/
         else
         {
             targetIcon = null;
